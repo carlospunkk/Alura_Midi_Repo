@@ -1,0 +1,34 @@
+document.querySelectorAll(.tecla)
+serve para selecionar todas as classes com esse nome do meu html
+
+<section class="teclado">
+
+<button class="tecla tecla_pom">Pom</button>
+<button class="tecla tecla_clap">Clap</button>
+<button class="tecla tecla_tim">Tim</button>
+
+<button class="tecla tecla_puff">Puff</button>
+<button class="tecla tecla_splash">Splash</button>
+<button class="tecla tecla_toim">Toim</button>
+
+<button class="tecla tecla_psh">Psh</button>
+<button class="tecla tecla_tic">Tic</button>
+<button class="tecla tecla_tom">Tom</button>
+
+</section>
+
+
+/*
+
+// CHAMEI O EVENTO EVENTLISTENER PARA TOCA O SOM
+const lista = document.querySelectorAll(".tecla")
+lista[0].addEventListener('click', tocaSomPom) // lista e seu elemento[0] posição
+
+
+
+// OUTRA FORMA DE CHAMAR TOCAR O SOM
+//document.querySelector(".tecla_pom").onclick = tocaSomPom;
+
+*/
+
+
